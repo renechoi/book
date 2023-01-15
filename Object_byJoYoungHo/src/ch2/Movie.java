@@ -1,5 +1,7 @@
 package ch2;
 
+import java.time.Duration;
+
 public class Movie {
     private String title;
     private Duration runningTime;
@@ -14,7 +16,7 @@ public class Movie {
     }
 
     public Money getFee(){
-
+        return fee;
     }
 
     public Money calculateMovieFee(Screening screening){
